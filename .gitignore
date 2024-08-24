@@ -1,0 +1,29 @@
+# Arquivos do sistema operacional (Windows, macOS)
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor de texto (VSCode, etc.)
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar arquivos de backup
+*~
+
+# Ignorar arquivos .pyc do Python
+*.pyc
+__pycache__/
+
+# Ignorar arquivos compactados
+*.zip
+*.tar.gz
+
+# Ignorar pastas
+en-us/
+result/
+venv/
