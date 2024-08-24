@@ -27,7 +27,8 @@ AprisoHelp
 ```
 
 ## Instructions
-1. Download the help folder `Dassault Systemes\DELMIA Apriso 2021\WebSite\Help\en-us` from Apriso (version 2021 or higher). 2. Run the `split_folder.py` script, which places the `.xml` type pages in the `en-us_xml` folder and the `.htm` type pages in the `en-us_htm` folder
+1. Download the help folder `Dassault Systemes\DELMIA Apriso 2021\WebSite\Help\en-us` from Apriso (version 2021 or higher).
+2. Run the `split_folder.py` script, which places the `.xml` type pages in the `en-us_xml` folder and the `.htm` type pages in the `en-us_htm` folder
 3. Run the `conv_xml.py` script, to convert the `.xml` pages to `.md` (markdown) from the `result/rst_xml` folder
 4. Run the `conv_htm.py` script, to convert the `.htm` pages to `.md` (markdown) from the `result/rst_htm` folder
 5. Identify the converted files in the `result` folder
